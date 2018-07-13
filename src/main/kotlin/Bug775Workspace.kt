@@ -24,12 +24,13 @@ class StartView : View("Bug 775") {
 
 	override val root = borderpane {
 		center {
-			vbox(20)
-			label("Notice that a warning about invisible workspace is printed on console.")
-			label("The button below works before commit 207f446f of tornadofx, but not after.")
-			button("Go to UndockableView") {
-				action {
-					workspace.dock<UndockableView>()
+			vbox(20) {
+				label("Notice that a warning about invisible workspace is printed on console.")
+				label("The button below works before commit 207f446f of tornadofx, but not after.")
+				button("Go to UndockableView") {
+					action {
+						workspace.dock<UndockableView>()
+					}
 				}
 			}
 		}
