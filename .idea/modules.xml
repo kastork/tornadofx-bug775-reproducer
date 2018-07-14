@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DockingBug.iml" filepath="$PROJECT_DIR$/.idea/modules/DockingBug.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DockingBug_main.iml" filepath="$PROJECT_DIR$/.idea/modules/DockingBug_main.iml" group="DockingBug" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DockingBug_test.iml" filepath="$PROJECT_DIR$/.idea/modules/DockingBug_test.iml" group="DockingBug" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tornadofx-bug775-reproducer.iml" filepath="$PROJECT_DIR$/.idea/modules/tornadofx-bug775-reproducer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tornadofx-bug775-reproducer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/tornadofx-bug775-reproducer_main.iml" group="tornadofx-bug775-reproducer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tornadofx-bug775-reproducer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/tornadofx-bug775-reproducer_test.iml" group="tornadofx-bug775-reproducer" />
     </modules>
   </component>
 </project>

@@ -6,8 +6,10 @@ import tornadofx.*
 class Bug775Workspace : Workspace() {
 
 	override fun onDock() {
-//    this doesn't seem to work
+		// this was a programmer error
 //		workspace.headingContainer.removeFromParent()
+		// but this doesn't work either
+//		headingContainer.removeFromParent()
 	}
 
 	init {
@@ -15,7 +17,6 @@ class Bug775Workspace : Workspace() {
 		showHeadingLabel = false
 
 		add(MainMenuBar::class)
-		dock<StartView>()
 	}
 
 }

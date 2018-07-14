@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="DockingBug_main" target="1.8" />
       <module name="DockingBug_test" target="1.8" />
+      <module name="tornadofx-bug775-reproducer_main" target="1.8" />
+      <module name="tornadofx-bug775-reproducer_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
